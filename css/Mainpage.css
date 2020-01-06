@@ -1,0 +1,48 @@
+.contenitore{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr) );
+    grid-gap: 1em;
+}
+.child{
+    position: relative;
+}
+.child:hover .overlay {
+    opacity: 1;
+
+}
+.child:hover img{
+    filter: blur(2px);
+}
+img{
+    display: block;
+    width: auto;
+    height: auto;
+    transition: .5s;
+}
+.text {
+    color: lightcoral;
+    font-size: 25px;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    widows: 100%;
+    opacity: 0;
+    transition: .5s;
+}
+@media (hover: none){
+    .child:focus .overlay {
+        opacity: 1;
+    
+    }
+    .child:focus img{
+        filter: blur(2px);
+    }
+}

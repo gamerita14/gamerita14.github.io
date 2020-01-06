@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Panettoni e Colombe on L&#39; Angolo Del Dolce</title>
+    <link>https://gamerita14.github.io/panettoni/</link>
+    <description>Recent content in Panettoni e Colombe on L&#39; Angolo Del Dolce</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it-IT</language>
+    <lastBuildDate>Sat, 04 Jan 2020 12:53:28 +0100</lastBuildDate>
+    
+	<atom:link href="https://gamerita14.github.io/panettoni/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Colombe</title>
+      <link>https://gamerita14.github.io/panettoni/colombe/</link>
+      <pubDate>Sat, 04 Jan 2020 13:26:57 +0100</pubDate>
+      
+      <guid>https://gamerita14.github.io/panettoni/colombe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Panettone</title>
+      <link>https://gamerita14.github.io/panettoni/panettone/</link>
+      <pubDate>Sat, 04 Jan 2020 13:26:47 +0100</pubDate>
+      
+      <guid>https://gamerita14.github.io/panettoni/panettone/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
